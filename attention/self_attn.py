@@ -86,6 +86,9 @@ print(context_vector_2)
 ## self attention class implementation
 class SelfAttention(nn.Module):
     def __init__(self, d_in, d_out_kq, d_out_v):
+        ## d_in: dim of the input feature vector
+        ## d_out_kq: dim of the query and key outputs
+        ## d_out_v: dim of the value outputs
         super().__init__()
         self.d_out_kq = d_out_kq
         self.W_query = nn.Parameter(torch.rand(d_in, d_out_kq))
