@@ -9,3 +9,4 @@ All projects rely on the uv package manager.
 2. If project is already created run 'uv sync' to install packages defined in the lock file.
     Packages can be added and removed with 'uv add package-name' or 'uv remove package-name'.
 3. Modules can be run with 'uv run module.py'
+4. Navigate to pytorch_dl and run the following command: 'uv run jupyter lab'
