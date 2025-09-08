@@ -1,0 +1,6 @@
+*/__pycache__/
+*/.ipynb_checkpoints/
+
+pytorch_dl/data/*
+pytorch_dl/mnist_data/*
+pytorch_dl/models/*
